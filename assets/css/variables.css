@@ -7,5 +7,6 @@
     --base-blue:  #B0F3E6;
     /* Distances */
     --dis-margin: 3.5%;
+    --dis-header: 2%;
     --dis-viewer: 71vw;
 }
