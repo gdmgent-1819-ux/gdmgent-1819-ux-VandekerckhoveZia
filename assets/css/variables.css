@@ -5,6 +5,7 @@
     --color-must: #973CCA;
     --base-color:  #707070;
     --base-blue:  #B0F3E6;
+    --color-must-lighter: hsla(278, 57%, 51%, 0.400);
     /* Distances */
     --dis-margin: 3.5%;
     --dis-header: 2%;
