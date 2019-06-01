@@ -58,15 +58,9 @@
     }
 
     .contact {
-        display: inline-block;
-        justify-items: center;
-        margin-left: 20%;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
         margin-bottom: var(--dis-margin);
-        text-align: center;
-    }
-
-    .info {
         text-align: center;
     }
 
@@ -78,8 +72,7 @@
 
     .cntctimg {
         display: inline-block;
-        width: 25%;
-        justify-items: left;
+        width: 10%;
     }
 
     .mainBody {
@@ -247,15 +240,9 @@
     }
 
     .contact {
-        display: inline-block;
-        justify-items: center;
-        margin-left: 20%;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
         margin-bottom: var(--dis-margin);
-        text-align: center;
-    }
-
-    .info {
         text-align: center;
     }
 
@@ -267,9 +254,7 @@
 
     .cntctimg {
         display: inline-block;
-        width: 25%;
-        justify-items: left;
-
+        width: 10%;
     }
 
     .mainBody {
