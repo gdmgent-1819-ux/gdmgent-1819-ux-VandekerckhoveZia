@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <title>Reservation</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Reservations</h1>
+        <form
+            action="https://gdmgent-code.github.io/ux/forms/payment-card/index.html?fbclid=IwAR05ahxEU0f5ksT3o7SuaGcCvAvY7RiDWRLtw2kcFIbalnsR4AYhWXOCGBU">
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="name" required> <br>
+            <label for="lastname">Last Name</label> <br>
+            <input type="text" name="lastname" id="lastname" required> <br>
+            <label for="organisation">Organisation</label> <br>
+            <input type="text" name="organisation" id="organisation" required> <br>
+            <label for="amount">Reservation for: <em>(minimally 20 to max 90 people)</em></label> <br>
+            <input type="number" name="amount" id="amount" max="90" min="20" value="20" required> <br>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" placeholder="john.doe@corporate.com" required> <br>
+            <label for="phone">Phone number</label> <br>
+            <input type="tel" name="phone" id="phone" required> <br> <br>
+            <input type="submit" value="To Payment">
+        </form>
+    </div>
+</body>
+
+</html>
